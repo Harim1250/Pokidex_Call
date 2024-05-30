@@ -1,0 +1,22 @@
+.pokimon-List{
+ margin: 0 auto;
+}
+
+.pokimonList-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.controll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.controll button{
+    padding: 2px 2px 2px 2px;
+    margin-left: 1rem ;
+    cursor: pointer;
+}

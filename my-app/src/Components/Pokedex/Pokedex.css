@@ -1,0 +1,11 @@
+.Pokedex-wrapper-word{
+    display: flex;
+    flex-direction: column;
+    
+    
+    #pokidex-hadding{
+        margin: 0 auto;
+    
+    }
+
+}
