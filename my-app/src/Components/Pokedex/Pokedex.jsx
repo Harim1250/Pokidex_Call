@@ -3,6 +3,7 @@ import Search from '../Search/Search'
  import './Pokedex.css'
 import PokimonList from '../PokimonList/PokimonList'
 import Pokimon from '../Pokimon/Pokimon'
+import PokimonDetails from '../PokimonDetails/PokimonDetails'
 
 const Pokedex = () => {
   return (
@@ -11,6 +12,7 @@ const Pokedex = () => {
 
     <Search/>
     <PokimonList/>
+    <PokimonDetails/>
     
     </div>
     

@@ -70,7 +70,7 @@ function PokimonList() {
 
 <div className='pokimonList-wrapper'>
    { (isLoading) ? 'loading....' : 
-     pokemonList.map((p)=> <Pokimon name = {p.name} image={p.image} key = {p.id}/>)
+     pokemonList.map((p)=> <Pokimon name = {p.name} image={p.image} key = {p.id} id={p.id}/>)
   
    } 
 

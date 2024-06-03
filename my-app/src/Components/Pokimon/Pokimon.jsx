@@ -1,14 +1,14 @@
 import React from 'react';
 import './Pokimon.css';
+import { Link } from 'react-router-dom';
 
- 
-const Pokimon = ({ name, image }) => (
-    
-
+const Pokemon = ({ name, image, id }) => (
   <div className="pokemon-card">
-    <h2>{name}</h2>
-    {image && <img className='pokimon-img' src={image} alt={name} />}
+    <Link to={`/pokemon/${id}`}>
+      <h2>{name}</h2>
+      {image && <img className='pokemon-img' src={image} alt={name} />}
+    </Link>
   </div>
 );
 
-export default Pokimon;
+export default Pokemon;
